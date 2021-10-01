@@ -14,12 +14,7 @@ public class PatientInfo {
     public PatientInfo() {
     }
 
-    public PatientInfo(String id,
-                       String name,
-                       String surname,
-                       LocalDate birthday,
-                       HealthInfo healthInfo
-    ) {
+    public PatientInfo(String id, String name, String surname, LocalDate birthday, HealthInfo healthInfo) {
         this.id = id;
         this.name = name;
         this.surname = surname;

@@ -12,8 +12,7 @@ public class HealthInfo {
     public HealthInfo() {
     }
 
-    public HealthInfo(BigDecimal normalTemperature,
-                      BloodPressure bloodPressure) {
+    public HealthInfo(BigDecimal normalTemperature, BloodPressure bloodPressure) {
         this.normalTemperature = normalTemperature;
         this.bloodPressure = bloodPressure;
     }
